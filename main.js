@@ -5,7 +5,7 @@ document.getElementById(hozGomb).addEventListener("click", () => {
     bevittErtek = document.getElementById(bevitel).value
     szamok.push(bevittErtek)
     szamok.forEach(element => {
-        if(element => elozoSzam)
+        if(element < legkisebbSzam)
         legkisebbSzam = element
     });
     document.getElementById(kiiras).innerHTML(legkisebbSzam)
